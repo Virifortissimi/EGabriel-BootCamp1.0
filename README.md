@@ -15,5 +15,6 @@ To join the program, follow these steps:
 |---------------------:|:---------------------:|---------------:|---------------------------------------:|
 | Okpala Olisaemekal   |olisamarvis@gmail.com  | OlisaMarvis    | Api, MVC, Signal R, jWT                |
 | Stanley Ugo          |stanleyugoofficial@gmail.com   | stanley-ugo | Microservices, gRpc, Reddis etc   |
+| Amina Bakare        |bakareaminata@gmail.com  | amina12-aj | API, MVC, EF Microservices, gRpc,Signal R, jWT  |
 
 > Looking forward to what we accomplished together.
