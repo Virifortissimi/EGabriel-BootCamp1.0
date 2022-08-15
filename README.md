@@ -11,10 +11,15 @@ To join the program, follow these steps:
 
 > Fill this table with your details to join the program.
 
-| Name                 | Email                 | Github         | What concept you'd like to learn       |
+| Name                 | Email                 | Github         | What concept would you like to learn   |
 |---------------------:|:---------------------:|---------------:|---------------------------------------:|
+| Simeon Chuks         |simeonchuksapi@gmail.com | IAMSIMCODE   | Micro Services, Api, Grpc, Dapr, SignalR, Azure |
 | Okpala Olisaemekal   |olisamarvis@gmail.com  | OlisaMarvis    | Api, MVC, Signal R, jWT                |
 | Stanley Ugo          |stanleyugoofficial@gmail.com   | stanley-ugo | Microservices, gRpc, Reddis etc   |
+
 | Amina Bakare        |bakareaminata@gmail.com  | amina12-aj | API, MVC, EF Microservices, gRpc,Signal R, jWT  |
+| Akinwole Samuel      | samuealkinwole@gmail.com| SAkinwole    | API, Microservices, Azure, Testing, Caching etc
+| Jonas Ababio         |jonasages@gmail.com    | [mk-milly02](https://github.com/mk-milly02) | Microservices, ASP.NET, Design Patterns   |
+| Jude Omenai          |jdonmarie@gmail.com  | JMario1  | gRpc, testing, caching, DDD |
 
 > Looking forward to what we accomplished together.
