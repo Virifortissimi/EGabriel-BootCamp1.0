@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApiWithMongoDB.Controllers
+namespace ProductsCRUDAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

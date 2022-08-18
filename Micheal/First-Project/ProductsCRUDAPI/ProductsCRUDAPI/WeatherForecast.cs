@@ -1,4 +1,4 @@
-namespace ProductCRUDAPI
+namespace ProductsCRUDAPI
 {
     public class WeatherForecast
     {
