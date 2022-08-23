@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 await DB.InitAsync("UserManagement",
     MongoClientSettings.FromConnectionString(
-        "mongodb+srv://Aderonke:Abdulsalam123@cluster0.aognqfs.mongodb.net/?retryWrites=true&w=majority"));
+        "connection string removed"));
 
 builder.Services.AddScoped<IUserRepo, UserRepo>();
 builder.Services.AddControllers();
