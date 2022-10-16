@@ -7,8 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-await DB.InitAsync("UserManagement",
-  "mongodb+srv://dbUser:adetunji26@cluster0.dgg1gpb.mongodb.net/?retryWrites=true&w=majority"));
+// await DB.InitAsync("UserManagement",
+//   "mongodb+srv://dbUser:adetunji26@cluster0.dgg1gpb.mongodb.net/?retryWrites=true&w=majority"));
 //builder.Services.Configure<BookStoreDatabaseSettings>(
 //    builder.Configuration.GetSection("BookStoreDatabase"));
 
