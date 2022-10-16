@@ -1,11 +1,15 @@
+using HttpClientTest.DataContext;
+using HttpClientTest.Repository;
 using HttpClientTest.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddHttpClient<IDataService, DataService>();
+builder.Services.AddScoped<IDataRepo, DataRepo>();
 
 var app = builder.Build();
 

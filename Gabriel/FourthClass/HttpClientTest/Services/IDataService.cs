@@ -4,7 +4,6 @@ namespace HttpClientTest.Services
 {
     public interface IDataService
     {
-        Task<TimezoneResponse> GetTimezone();
-        Task<PredictionsModel> GetPredictions();
+        Task<DrinkData> GetCockTailByName();
     }
 }
