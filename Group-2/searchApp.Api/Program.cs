@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using searchApp.Repository;
+using searchApp.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient();
+
+builder.Services.AddDbContext<searchApp.Repository.AppContext>(options =>
+{
+    options.UseSqlite($"Data Source=/home/jude/csharp/search.db");
+
+});
+builder.Services.AddScoped<ISearchService, SearchService>();
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 var app = builder.Build();
 
