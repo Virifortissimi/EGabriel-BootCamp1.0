@@ -1,0 +1,32 @@
+@model DrinkData;
+
+
+@{
+    ViewData["Title"] = "Cocktail for api";
+}
+
+<div class="text-center">
+    <h1 class="display-4">API Cocktails</h1>
+</div>
+
+@if (Model != null)
+{
+
+    <table class="table">
+        <th>
+        <td>Name</td>
+        <td>Category</td>
+        <td>Instructions</td>
+        </th>
+
+        @foreach (var item in Model.drinks)
+        {
+            <tr>
+                <td>@item.strDrink</td>
+                <td>@item.strCategory</td>
+                <td>@item.strInstructions</td>
+            </tr>
+        }
+
+    </table>
+}

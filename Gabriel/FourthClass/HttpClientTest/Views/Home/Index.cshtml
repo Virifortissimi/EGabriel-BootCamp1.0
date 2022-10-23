@@ -1,4 +1,4 @@
-﻿@model TimezoneResponse;
+﻿@model List<DrinkModel>;
 
 
 @{
@@ -10,18 +10,24 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-@if(Model != null)
+@if (Model != null)
 {
-    
-        <table class="table">
-            <th>
-                <td>Data</td>
-            </th>
+
+    <table class="table">
+        <th>
+        <td>Name</td>
+        <td>Category</td>
+        <td>Instructions</td>
+        </th>
+
+        @foreach (var item in Model)
+        {
             <tr>
-                @foreach(var item in Model.response)
-                {
-                    <td>@item</td>
-                }
+                <td>@item.Name</td>
+                <td>@item.Category</td>
+                <td>@item.Instructions</td>
             </tr>
-        </table>
+        }
+
+    </table>
 }
